@@ -31,15 +31,15 @@ public class UserDetails {
     @Column(name = "mobile_number")
     private String mobileNumber;
     @Column(name = "user_email")
-    private String emailId;
+    private String email;
     @Column(name = "user_password")
     private String userPassword;
 
     private String SSN;
     @Column(name = "active_switch")
     private String activeSwitch;
-    @Column(name = "active_status")
-    private String activeStatus;
+    @Column(name = "acc_status")
+    private String accStatus;
     @Column(name = "create_date")
     private LocalDate createDate;
     @Column(name = "update_date")
